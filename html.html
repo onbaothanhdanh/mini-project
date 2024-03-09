@@ -20,7 +20,7 @@
                     <li>
                         <form class="search" action="#">
                             <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
-                            <input class="input-search" type="text" placeholder="Search.." name="search">
+                            <input class="input-search" type="text" placeholder="Search" name="search">
 
                         </form>
                     </li>
@@ -29,15 +29,14 @@
                     </li>
 
 
-                    <li>
-
-                        <a href=""><i class="fa-brands fa-google grand-account grand-account" ></i>Rikkei Acedamy <i class="fa-solid fa-angle-down"></i></a>
-                        <ul class="sub-menu">
-                            <li><a href="">Rikkei Acedamy1</a></li>
-                            <li><a href="">Rikkei Acedamy2</a></li>
-                            <li><a href="">Rikkei Acedamy3</a></li>
-                            <li><a href="">Rikkei Acedamy4</a></li>
-                        </ul>
+                    <li class="sub-menu">
+                        <i class="fa-brands fa-google grand-account grand-account"></i>
+                        <select>
+                            <option value="Rikkei-Acedamy1">Rikkei Acedamy1</option>
+                           <option value="Rikkei-Acedamy2">Rikkei Acedamy2</option>
+                         <option value="Rikkei-Acedamy3">Rikkei Acedamy3</option>
+                           <option value="Rikkei-Acedamy4">Rikkei Acedamy4</option>
+                        </select>
                     </li>
                 </ul>
             </nav>
@@ -47,8 +46,6 @@
         <div class="item-2 item slide-bar">
             <h3>Rikkei Acedamy</h3>
             <div class="slide-bar-top">
-
-
                 <ul class="slide-bar-top-link">
                     <li>
                         <a href="#"><i class="fa-regular fa-table-columns"></i>Dashboard<i class="fa-solid fa-angle-right"></i></a>
@@ -79,21 +76,18 @@
         <div class="item-3 item content-container">
             <div class="content-style">
                 <div class="content-head">
-                    <button Class="content-head-btn" type=""><i class="fa-solid fa-plus"></i>Add product</button>
+                    <button Class="content-head-btn"><i class="fa-solid fa-plus"></i>Add product</button>
 
                     <div class="select-input-label"><label>Sort by:</label>
-                        <ul class="select-input-item-list">
-                            <li><a href="">Name</a> <i class="fa-solid fa-sort-down"></i>
-                                <ul class="select-input-item">
-                                    <li><a href="">Status</a></li>
-                                    <li><a href="">Category</a></li>
-                                    <li><a href="">Price</a></li>
-                                    <li><a href="">Date</a></li>
-                                    <li><a href="">Action</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <!-- Thêm thẻ đóng </li> ở đây -->
+
+                        <select class="select-input-item">
+                             <option value="name">Name</option>
+                            <option value="status">Status</option>
+                          <option value="category">Category</option>
+                            <option value="price">Price</option>
+                         <option value="date">Date</option>
+                            <option value="action">Action</option>
+                         </select>
                     </div>
                 </div>
                 <table class="content-table">
@@ -176,8 +170,9 @@
             </div>
 
         </div>
+        <div class="item-4 item footer-container">footer</div>
     </div>
-    <div class="item-4 item footer-container">footer</div>
+
     </div>
     </div>
     <!-- <div class="item-5 item"> item5</div> -->
